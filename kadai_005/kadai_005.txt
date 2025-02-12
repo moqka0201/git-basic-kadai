@@ -1,0 +1,27 @@
+miuramisakinoMacBook-Air:課題 monaka$ git init git_challenge
+Initialized empty Git repository in /Users/monaka/Desktop/学習/課題/git_challenge/.git/
+miuramisakinoMacBook-Air:課題 monaka$ cd git_challenge
+miuramisakinoMacBook-Air:git_challenge monaka$ touch hello_world.txt
+miuramisakinoMacBook-Air:git_challenge monaka$ git add hello_world.txt
+miuramisakinoMacBook-Air:git_challenge monaka$ git add hello_world.txt
+miuramisakinoMacBook-Air:git_challenge monaka$ git commit -m "hello_world.txtを追加"
+[main (root-commit) 47bff94] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+miuramisakinoMacBook-Air:git_challenge monaka$ git add hello_world.txt
+miuramisakinoMacBook-Air:git_challenge monaka$ git commit -m "日本語訳を追加"
+[main e390d55] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+miuramisakinoMacBook-Air:git_challenge monaka$ git log -- hello_world.txt
+commit e390d5583634347f726c19db92ee36c7ef4125df (HEAD -> main)
+Author: monqka0201 <sca_mqm1@yahoo.co.jp>
+Date:   Wed Feb 12 19:58:05 2025 +0900
+
+    日本語訳を追加
+
+commit 47bff946462062b4c612f98748fa6228501efe25
+Author: monqka0201 <sca_mqm1@yahoo.co.jp>
+Date:   Wed Feb 12 19:57:07 2025 +0900
+
+    hello_world.txtを追加
+miuramisakinoMacBook-Air:git_challenge monaka$ 
