@@ -1,0 +1,37 @@
+miuramisakinoMacBook-Air:git_challenge monaka$ cd /Users/monaka/Desktop/学習/課題
+miuramisakinoMacBook-Air:課題 monaka$ git init git_challenge
+Initialized empty Git repository in /Users/monaka/Desktop/学習/課題/git_challenge/.git/
+miuramisakinoMacBook-Air:課題 monaka$ cd git_challenge
+miuramisakinoMacBook-Air:git_challenge monaka$ touch hello_world.txt
+miuramisakinoMacBook-Air:git_challenge monaka$ git add hello_world.txt
+miuramisakinoMacBook-Air:git_challenge monaka$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello_world.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+miuramisakinoMacBook-Air:git_challenge monaka$ git commit -m "hello_world.txtを追加"
+[main (root-commit) 069ac9a] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+miuramisakinoMacBook-Air:git_challenge monaka$ git add hello_world.txt
+miuramisakinoMacBook-Air:git_challenge monaka$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello_world.txt
+
+miuramisakinoMacBook-Air:git_challenge monaka$ git commit -m "日本語訳を追加"
+[main 4d2c2b9] 日本語訳を追加
+ 1 file changed, 2 insertions(+)
+miuramisakinoMacBook-Air:git_challenge monaka$ git log --oneline
+4d2c2b9 (HEAD -> main) 日本語訳を追加
+069ac9a hello_world.txtを追加
